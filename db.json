@@ -38,6 +38,16 @@
         "AWS Architect Certification Training"
       ],
       "id": "8754"
+    },
+    {
+      "name": "harsh",
+      "email": "harsh@gmail.com",
+      "message": "Heloo Please Contact me I wanna but this course",
+      "courses": [
+        "Kubernetes Certification Training Course",
+        "Python Certification Training for Data Science Live Classes"
+      ],
+      "id": "0717"
     }
   ]
 }
