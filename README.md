@@ -1,6 +1,6 @@
 # Course Listing Application With Enquiry Feature 
 
-
+![](https://github.com/ishu-harsh/react_Course_Listing_App/blob/main/public/projectGif.gif)
 
 
 ## Dependencies Used 
