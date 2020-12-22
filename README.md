@@ -13,7 +13,7 @@
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom)    
   
 
-## Startig Json-Server
+## Starting Json-Server
 
 
 Plugin presets:
