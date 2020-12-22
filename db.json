@@ -2,28 +2,28 @@
   "courses": [
     {
       "id": 1,
-      "description": "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios. This training is completely hands-on and designed in a way to help you become a certified practitioner through best practices in Continuous Development, Continuous Testing, Configuration Management and Continuous Integration, and finally, Continuous Monitoring of software throughout its development life cycle.",
+      "description": "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios.",
       "title": "DevOps Certification Training",
       "price": 5000,
       "img": "https://spng.subpng.com/20190729/exp/kisspng-arrow-5d3ee0bdc291e0.651680981564401853797.jpg"
     },
     {
       "id": 2,
-      "description": "Kubernetes certification training is curated by top industry experts. This interactive Kubernetes online training is created to help you learn how to set up your own Kubernetes Cluster, configure networking between pods and secure the cluster against unauthorized access. This Kubernetes course is live, instructor-led & helps you master key Kubernetes concepts, with hands-on demonstrations. Enroll now in this Docker online training & be a certified Kubernetes professional with Kubernetes Certification Training Course",
+      "description": "Kubernetes certification training is curated by top industry experts. This interactive Kubernetes online training is created to help you learn how to set up your own Kubernetes Cluster, configure networking between pods and secure the cluster against unauthorized access.",
       "title": "Kubernetes Certification Training Course",
       "price": 7000,
       "img": "https://miro.medium.com/max/800/1*WpKHLIDsJZgWKJe-SkOtcg.png"
     },
     {
       "id": 3,
-      "description": "Data Science using Python programming certification course enables you to learn data science concepts from scratch. This Python Course will also help you master important Python programming concepts such as data operations,  file operations, object-oriented programming and various Python libraries such as Pandas, Numpy, Matplotlib which are essential for Data Science.Python Certification Training course is also a gateway towards your Data Science career.",
+      "description": "Data Science using Python programming certification course enables you to learn data science concepts from scratch.",
       "title": "Python Certification Training for Data Science Live Classes",
       "price": 9000,
       "img": "https://www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science-workflow.jpg"
     },
     {
       "id": 4,
-      "description": " AWS Architect Certification Training is curated by industry professionals as per the industry requirements and demands. It will help you prepare for the AWS Certified Solutions Architect - Associate exam SAA-C02 With instructor-led sessions, you will be able to effectively architect and deploy secure and robust applications using AWS. This course will help you identify the appropriate AWS service based on databases, network, storage, cost optimization, compute, and security requirements",
+      "description": " AWS Architect Certification Training is curated by industry professionals as per the industry requirements and demands.",
       "title": "AWS Architect Certification Training",
       "price": 15000,
       "img": "https://www.kloia.com/hubfs/aws-training.png"
@@ -31,15 +31,13 @@
   ],
   "enquiry": [
     {
-      "id": 2344,
-      "name": "jhon",
-      "email": "jhon@gmail.com",
-      "message": "I want To Buy This Course",
-      "courses": []
-    },
-    {
-      "{\"name\":\"harsh\",\"email\":\"hsharma0824@gmail.com\",\"message\":\"harsh\",\"courses\":[\"Python Certification Training for Data Science Live Classes\"],\"id\":\"0366\"}": "",
-      "id": 2345
+      "name": "harsh",
+      "email": "harsh@gmail.com",
+      "message": "I wanna buy this course please contact me ASAP",
+      "courses": [
+        "AWS Architect Certification Training"
+      ],
+      "id": "8754"
     }
   ]
 }

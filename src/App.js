@@ -2,8 +2,8 @@ import React , {useState, useEffect} from 'react'
 import axios from 'axios'
 import { Button, Modal, Form } from 'react-bootstrap';
 
-const courseUrl = "http://localhost:3000/courses"
-const enquiryUrl = "http://localhost:3000/enquiry"
+const courseUrl = "http://localhost:4000/courses"
+const enquiryUrl = "http://localhost:4000/enquiry"
 
 
 class App extends React.Component{
@@ -15,7 +15,8 @@ class App extends React.Component{
       email : "",
       name: "",
       message: "",
-      selectedCourses :[]
+      selectedCourses :[],
+      enquirySubmited : false
     }
   }
 
@@ -70,9 +71,14 @@ class App extends React.Component{
       email : this.state.email,
       message : this.state.message,
       courses : this.state.selectedCourses,
-      id : (Math.floor(Math.random() * 10000) + 10000).toString().substring(1)
+      id : Number(Math.floor(Math.random() * 10000) + 10000).toString().substring(1)
     }
-   await axios.post(enquiryUrl, JSON.stringify(enquiryObj) )
+   await axios.post(enquiryUrl, enquiryObj)
+   this.setState({enquirySubmited : true})
+   if (this.state.enquirySubmited ===true){
+      alert("Enquiry Sumited")
+      this.setState({show: false})
+   }
   }
 
   handleClose = () => this.setState({show: false});
